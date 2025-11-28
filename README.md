@@ -1,69 +1,29 @@
-Crypto Tracker App (SwiftUI) 📱
+📱 Crypto Tracker App (SwiftUI)
 
-A lightweight iOS application built with SwiftUI and MVVM, providing real-time cryptocurrency market data.
-The app displays top movers, live prices, and detailed coin information using clean and reusable UI components.
+Crypto Tracker is a lightweight iOS app built with Swift and SwiftUI, following the MVVM architecture for a clean, modular, and scalable codebase.
+It provides real-time cryptocurrency market data, top movers, and a modern, easy-to-use interface.
 
-⸻
 ✨ Features
-	📊 Live cryptocurrency market data fetched from the CoinGecko API
-	🚀 “Top Movers” section ranked by 24h price change
-	🧩 Reusable and maintainable SwiftUI views
-	🖼️ Remote image loading and caching using Kingfisher
-	🧠 MVVM architecture for clean separation of concerns
-	🔄 Smooth loading and state updates using ObservableObject
 
-	🏗️ Architecture Overview
+📊 Live cryptocurrency market data fetched from the CoinGecko API
+🚀 “Top Movers” section ranked by 24h price change
+🧩 Reusable and maintainable SwiftUI components
+🖼️ Remote image loading and caching using Kingfisher
+🧠 Clean MVVM architecture for separation of concerns
+🔄 Smooth state updates using ObservableObject and @Published
 
-The app follows a clean MVVM structure:
+🏗️ Architecture
 
-Model 🟦
-	• Defines the Coin data structure
-	• Uses Codable for JSON parsing
+Model: Defines the Coin data structure and uses Codable for JSON parsing
+ViewModel: Handles API calls, sorting, filtering, and state management
+Views: SwiftUI-based screens such as HomeView, TopMovingView, CoinRowView, and detail views
 
-ViewModel 🟩
-	• Fetches cryptocurrency data from CoinGecko
-	• Sorts and filters top movers
-	• Publishes updates using @Published
+🛠️ Tech Stack
 
-Views 🟧
-	• HomeView
-	• TopMovingView
-	• CoinRowView
-	• Detail View
-
-⸻
-
-📁 Project Structure
-Crypto Tracker App
-
-├── App/
-├── Core/
-│   └── Home/
-│       └── Views/
-├── HomeViewModel/
-├── Model/
-├── Utils/
-└── Extensions/
-
-🌐 API Integration
-
-The app integrates with the CoinGecko REST API to fetch:
-	•	Current coin prices
-	•	Market capitalization
-	•	24h price movement
-	•	Market rank
-	•	Coin images
-
-Networking uses URLSession, and responses are decoded with JSONDecoder.
-
-⸻
-
-🛠️ Technologies Used
-	• Swift
-	• SwiftUI
-	• MVVM
-	• URLSession
-	• JSONDecoder
-	• Kingfisher
-	• Xcode
-
+Language: Swift
+Framework: SwiftUI
+Architecture: MVVM
+Networking: URLSession + JSONDecoder
+Images: Kingfisher
+API: CoinGecko REST API
+IDE: Xcode
