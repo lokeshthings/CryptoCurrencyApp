@@ -27,3 +27,9 @@ Networking: URLSession + JSONDecoder
 Images: Kingfisher
 API: CoinGecko REST API
 IDE: Xcode
+
+🚀 Getting Started
+
+1. Clone the Repository
+
+git clone https://github.com/lokeshthings/comfortkey.git
