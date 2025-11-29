@@ -55,4 +55,4 @@ IDE: Xcode
 
 1. Clone the Repository
 
-git clone https://github.com/lokeshthings/comfortkey.git
+git clone https://github.com/lokeshthings/CryptoCurrencyApp.git
