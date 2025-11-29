@@ -5,10 +5,7 @@ Crypto Tracker is a lightweight iOS app built with Swift and SwiftUI, following 
 It provides real-time cryptocurrency market data, top movers, and a modern, easy-to-use interface.
 
 
-
-⸻
-
-
+⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
 
 ✨ Features
 
@@ -24,6 +21,8 @@ It provides real-time cryptocurrency market data, top movers, and a modern, easy
 
 🔄 Smooth state updates using ObservableObject and @Published
 
+⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
+
 🏗️ Architecture
 
 Model: Defines the Coin data structure and uses Codable for JSON parsing
@@ -31,6 +30,8 @@ Model: Defines the Coin data structure and uses Codable for JSON parsing
 ViewModel: Handles API calls, sorting, filtering, and state management
 
 Views: SwiftUI-based screens such as HomeView, TopMovingView, CoinRowView, and detail views
+
+⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
 
 🛠️ Tech Stack
 
@@ -47,6 +48,8 @@ Images: Kingfisher
 API: CoinGecko REST API
 
 IDE: Xcode
+
+⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
 
 🚀 Getting Started
 
